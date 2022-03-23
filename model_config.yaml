@@ -1,0 +1,24 @@
+model_0:
+  n_layers: 2
+  n_hidden_units: [196, 98]
+  learning_rate: 0.01
+
+model_1:
+  n_layers: 2
+  n_hidden_units: [392, 196]
+  learning_rate: 0.01
+
+model_2:
+  n_layers: 4
+  n_hidden_units: [196, 98, 196, 98]
+  learning_rate: 0.001
+
+model_3:
+  n_layers: 4
+  n_hidden_units: [392, 196, 392, 196]
+  learning_rate: 0.001
+
+model_4:
+  n_layers: 6
+  n_hidden_units: [392, 196, 98, 98, 196, 392]
+  learning_rate: 0.0001
