@@ -32,6 +32,25 @@ Below are validation accuracy metric plots for 5 base learners:
   <img src="graphs/valid_acc_model_4.svg"  width = 300 height = 200 title = 'train/acc/model_4' />
 </p>
 
+# Test results on unseen data
+model0 accuracy: 0.7526
+model1 accuracy: 0.7303
+model2 accuracy: 0.7807
+model3 accuracy: 0.7837
+model4 accuracy: 0.778
+final ensemble accuracy:  0.7964
+confusion matrix:
+ [[ 918    0    5    5    1    5    7    0   12   10]
+ [   0 1097   16    4   12    1    0    5    4    1]
+ [  19    3  766   14   84    4    5   56   41    3]
+ [  10    3   38  778   11   39   29   11   80    9]
+ [   5    8   83    1  744   36   12   58   11   25]
+ [  15    4    2   33   32  726   45   16   12   10]
+ [   7    3    4   41   16   28  741   42    9  109]
+ [   8   10   87   11   80    5   64  715    6   32]
+ [   5    5   46   48   47   20   22    7  779    6]
+ [  25    1   11   13   45   24  150   31   13  700]]
+
 # Future Scope
 I have tried simple ensembling technique for the demonstration. We can use more advanced ensembling, sampling, subset feature selection, stacking based models as well.
 
