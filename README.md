@@ -1,6 +1,6 @@
 # Neural Network Ensemble
 
-This project is to demonstrate training and evaluation of ensembling of neural network base learners using soft voting aggregation. Everything is compiled in the [main.ipynb](ipython notebook)
+This project is to demonstrate training and evaluation of ensembling of neural network base learners using soft voting aggregation. Everything is compiled in the [main.ipynb](main.ipynb)
 
 
 # Network architecture:
@@ -15,15 +15,22 @@ Tabular data is used for this project. Data is kept inside [data] as csv files. 
 
 
 # evaluation results
-I have saved training and validation loss and accuracy metric plots 
+Below are training accuracy metric plots for 5 base learners:
 <p float="left">
-  <img src="graphs/train_acc_model_0.svg" width="100" />
-  <img src="graphs/train_acc_model_1.svg" width="100" /> 
-  <img src="graphs/train_acc_model_2.svg" width="100" />
+  <img src="graphs/train_acc_model_0.svg", width = 300,  height = 200 title = 'train/acc/model_0' />
+  <img src="graphs/train_acc_model_1.svg" width = 300 height = 200 title = 'train/acc/model_1' /> 
+  <img src="graphs/train_acc_model_2.svg" width = 300 height = 200 title = 'train/acc/model_2' />
+  <img src="graphs/train_acc_model_3.svg" width = 300 height = 200 title = 'train/acc/model_3' />
+  <img src="graphs/train_acc_model_4.svg"  width = 300 height = 200 title = 'train/acc/model_4' />
 </p>
-
-![](images/fakes.png)
-![](images/fakes_mask.png)
+Below are validation accuracy metric plots for 5 base learners:
+<p float="left">
+  <img src="graphs/valid_acc_model_0.svg", width = 300,  height = 200 title = 'train/acc/model_0' />
+  <img src="graphs/valid_acc_model_1.svg" width = 300 height = 200 title = 'train/acc/model_1' /> 
+  <img src="graphs/valid_acc_model_2.svg" width = 300 height = 200 title = 'train/acc/model_2' />
+  <img src="graphs/valid_acc_model_3.svg" width = 300 height = 200 title = 'train/acc/model_3' />
+  <img src="graphs/valid_acc_model_4.svg"  width = 300 height = 200 title = 'train/acc/model_4' />
+</p>
 
 # Future Scope
 I have tried simple ensembling technique for the demonstration. We can use more advanced ensembling, sampling, subset feature selection, stacking based models as well.
