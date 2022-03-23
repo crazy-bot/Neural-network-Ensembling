@@ -1,6 +1,6 @@
 # Neural Network Ensemble
 
-This project is to demonstrate training and evaluation of ensembling of neural network base learners using soft voting aggregation. Everything is compiled in the [main.ipynb](ipython notebook)
+This project is to demonstrate training and evaluation of ensembling of neural network base learners using soft voting aggregation. Everything is compiled in the [./main.ipynb](ipython notebook)
 
 
 # Network architecture:
@@ -17,9 +17,11 @@ Tabular data is used for this project. Data is kept inside [data] as csv files. 
 # evaluation results
 I have saved training and validation loss and accuracy metric plots 
 <p float="left">
-  <img src="graphs/train_acc_model_0.svg" width="100" />
-  <img src="graphs/train_acc_model_1.svg" width="100" /> 
-  <img src="graphs/train_acc_model_2.svg" width="100" />
+  <img src="graphs/train_acc_model_0.svg" title = 'train/acc/model_0' />
+  <img src="graphs/train_acc_model_1.svg" title = 'train/acc/model_1' /> 
+  <img src="graphs/train_acc_model_2.svg" title = 'train/acc/model_2' />
+  <img src="graphs/train_acc_model_3.svg" title = 'train/acc/model_3' />
+  <img src="graphs/train_acc_model_4.svg" title = 'train/acc/model_4' />
 </p>
 
 ![](images/fakes.png)
